@@ -2725,7 +2725,7 @@ local locallv = W:AddLabel("Level")
     })
     
     local LevelFarmFarm W:AddLabel("gi")
-    W:AddLabel("Config Save : Comming Son...")
+    W:AddLabel("Config Save : auto save")
     local Farmfast = W:AddLabel("Farm Fast : ❌")
     local Bypass = W:AddLabel("Bypass ❌")
     local Section = W:AddSection({
@@ -3319,7 +3319,7 @@ local Section = M:AddSection({
 
 
 M:AddToggle({
-    Name = "Kaitun[Ko có kill players]",
+    Name = "Kaitun[no kill player idk]",
     Default = false,
     Flag = "Kaitun",
     Save = true,
@@ -4115,7 +4115,7 @@ IQ:AddToggle({
             Name = "ArenaTrainer"
         })
 
-        IQ:AddLabel("Cho thằng nào đell hiểu thì đây là tự động đánh hình nộm")
+        IQ:AddLabel("idk")
 
         IQ:AddToggle({
             Name = "Automatically hit the dummy",
