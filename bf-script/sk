@@ -2628,8 +2628,8 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("18/10/2010")
-W:AddLabel("chill")
+W:AddLabel("birthday : 18/10/2018")
+W:AddLabel("riel🐧 - script not work at sea 1")
 W:AddLabel("join my discord server")
 local Section = W:AddSection({
     Name = "Status"
@@ -3313,7 +3313,7 @@ Farmfasttoggle = M:AddToggle({
 })
 
 local Section = M:AddSection({
-    Name = "Kaitun dỏm"
+    Name = "Kaitun beta:)"
 })
 
 
