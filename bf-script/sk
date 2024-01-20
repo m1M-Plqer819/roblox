@@ -2530,13 +2530,13 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>mbm chào ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>print("hello world!")<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>have fun<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Join my server to receive notifications<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hub make by Zyy <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>my name is minh - minh is me - m1m - mim - or call me by the name you like<Color=/>"):Display()
     wait(.36)
 end)
 
@@ -2658,9 +2658,9 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("[+] bo may gey")
-W:AddLabel("[+] me may beo")
-W:AddLabel("[✓]Vô discord ở đầu mục khác nha")
+W:AddLabel("18/10/2010")
+W:AddLabel("chill")
+W:AddLabel("join my discord server")
 local Section = W:AddSection({
     Name = "Status"
 })
