@@ -5,7 +5,7 @@ elseif game.PlaceId == 4442272183 then
 elseif game.PlaceId == 7449423635 then
     World3 = true
 else
-    game:GetService("Players").LocalPlayer:Kick("Do not Support, Please wait...")
+    game:GetService("Players").LocalPlayer:Kick("Do not Support,.. join my discord server : https://discord.gg/zMB5HeS3vd")
 end
 
 function CheckQuest() 
@@ -2530,18 +2530,18 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>prℹnt("hello world!")<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>print("hello world!")<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>have fun<Color=/>"):Display()
     wait(.24)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Join my server to receive notifications<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>my name is minh - minh is me - m1m - mim - or call me by the name you like<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>my name is minh - m.1.M - or call me by the name you like<Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "mbm", HidePremium = false, IntroText = "mbm⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "mbm", HidePremium = false, IntroText = "mbm⚜", SaveConfig = true, ConfigFolder = "minh"})
 
 
 
