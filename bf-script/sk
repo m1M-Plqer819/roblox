@@ -1,3 +1,4 @@
+--night hub rác nhiều chức năng k hoạt động
 
 function CheckQuest() 
     MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
