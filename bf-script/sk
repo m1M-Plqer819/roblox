@@ -3816,7 +3816,7 @@ elseif _G.WhiteScreen == false then
     })
     
     ST:AddToggle({
-        Name = "auto bật  v4",
+        Name = "auto turn on v4",
         Default = false,
         Callback = function(Value)
         AutoAwakeningRace = Value
